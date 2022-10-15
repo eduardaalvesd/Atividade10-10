@@ -1,0 +1,18 @@
+
+B
+class Main {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    int n1,n2;
+    System.out.println("Informe o valor n1:");
+    n1 entrada.nextInt();
+    System.out.println("Infome o valor n2:");
+n2 entrada.nextInt();
+     if (n1 > n2) {
+     print("O valor n1 é maior",a);
+     }
+  else
+     print("O valor n2 é maior",b);
+
+      }
+}
