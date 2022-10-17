@@ -1,0 +1,26 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int a, b;
+    System.out.print("Informe um numero:");
+    a = input.nextInt();
+    System.out.print("Informe um numero:");
+    b = input.nextInt();
+    soma (a,b);
+    sub (a,b);
+    multi (a,b);
+  }
+  static void soma (int a, int b){
+    int soma = a + b;
+    System.out.print(" O resultado da soma é:" + soma);
+}
+  static void sub(int a, int b){
+    int sub = a - b;
+    System.out.print("O resultado da subtração é:" + sub);
+  }
+static void multi (int a, int b){
+  int multi = a*b;
+  System.out.print("O resultado da multiplicaçao é" + multi);
+}
+}
